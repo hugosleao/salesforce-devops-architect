@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Salesforce / SFDX (temporário)
+.sfdx/
+.sf/
+
+# Logs
+*.log
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
