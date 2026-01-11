@@ -1,30 +1,18 @@
-# Salesforce DevOps for Architects — Hands-on Lab
+# Salesforce DX Project: Next Steps
 
-Este repositório implementa, passo a passo, todos os conceitos do livro
-**Salesforce DevOps for Architects**, aplicados em um projeto real usando:
+Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
-- Salesforce DX (SFDX)
-- Git como source of truth
-- Scratch orgs
-- CI/CD com GitHub Actions
-- Testes automatizados
-- Data seeding
-- Estratégias de backup, monitoring e governança
+## How Do You Plan to Deploy Your Changes?
 
-## Objetivo
+Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-Construir um projeto Salesforce reproduzível do zero, seguindo práticas
-modernas de DevOps e arquitetura, mesmo utilizando apenas uma Developer Org.
+## Configure Your Salesforce DX Project
 
-## Estrutura do repositório
+The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
-```text
-/docs
-  /chapter-notes     -> Anotações e entregáveis por capítulo
-  /decisions         -> Decisões arquiteturais (ADR-like)
-/scripts             -> Scripts auxiliares (backup, seed, etc.)
-/sfdx
-  /data              -> Datasets para data seeding
-  /orgs              -> Scratch org definitions
-/.github/workflows   -> Pipelines CI/CD
-```
+## Read All About It
+
+- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
+- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
+- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
+- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
